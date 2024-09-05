@@ -21,7 +21,7 @@ sample_outputs = model.generate(sample_inputs, max_length=769)
 
 stop_stream = False
 
-welcome_prompt = "欢迎使用 ChatGLM2-6B 模型，输入内容即可进行对话，clear 清空对话历史，stop 终止程序"
+welcome_prompt = "欢迎使用 ChatGLM2-6B医疗纠纷大模型，输入内容即可进行对话，clear 清空对话历史，stop 终止程序"
 fixed_prompt = "请提取出姓名、性别、年龄、身份证号、诊断证明、纠纷经过、手术、科室、赔偿。### Input:"
 
 def main():
